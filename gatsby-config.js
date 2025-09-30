@@ -1,6 +1,8 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
+ * 
  */
+const adapter = require("gatsby-adapter-netlify");
 module.exports = {
   siteMetadata: {
     title: `My Gatsby Site`,
